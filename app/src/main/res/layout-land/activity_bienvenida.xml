@@ -28,13 +28,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- Ícono incluido en la plantilla estándar de Android Studio -->
     <ImageView
         android:id="@+id/iconoTelefono"
         android:layout_width="60dp"
         android:layout_height="55dp"
         android:layout_marginTop="8dp"
         android:contentDescription="Ícono de teléfono"
-        android:src="@drawable/baseline_phone_android_24"
+        android:src="@drawable/ic_launcher_foreground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.499"
         app:layout_constraintStart_toStartOf="parent"
