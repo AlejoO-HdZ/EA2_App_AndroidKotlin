@@ -223,11 +223,11 @@ DESCRIPCION DE ARCHIVOS:
 - MainActivity.kt	Permite escribir y enviar mensajes, recibir resultados y salir de la aplicación.
 - Activity2.kt	Recibe el mensaje y permite seleccionar RECIBIDO o CANCELADO.
 - activity_bienvenida.xml	Interfaz de la pantalla de bienvenida.
--activity_main.xml	Interfaz principal de la aplicación.
--activity_2.xml	Interfaz de la segunda actividad.
--(land)	Variante de cada interfaz para orientación horizontal.
--AndroidManifest.xml	Registra las Activities y configura la aplicación.
--drawable	Contiene el recurso gráfico utilizado en la aplicación.
+- activity_main.xml	Interfaz principal de la aplicación.
+- activity_2.xml	Interfaz de la segunda actividad.
+- (land)	Variante de cada interfaz para orientación horizontal.
+- AndroidManifest.xml	Registra las Activities y configura la aplicación.
+- drawable	Contiene el recurso gráfico utilizado en la aplicación.
 
 
 Adaptación a la orientación La aplicación dispone de diseños para:
