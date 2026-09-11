@@ -12,7 +12,6 @@
     tools:context=".Activity2">
 
     <!-- Título de la segunda actividad -->
-
     <!-- Descripción de la actividad -->
     <TextView
         android:id="@+id/tituloActivity2"

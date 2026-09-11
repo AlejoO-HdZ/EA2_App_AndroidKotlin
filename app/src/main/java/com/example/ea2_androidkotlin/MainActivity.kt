@@ -8,7 +8,6 @@ import android.content.Intent
 
 // Permite cambiar los colores del estado.
 import android.graphics.Color
-
 import android.os.Bundle
 
 // Componentes gráficos utilizados.
@@ -25,10 +24,7 @@ import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
 
-    /*
-     * Permite abrir Activity2 y recibir la información
-     * que esta devuelve al finalizar.
-     */
+    /* Permite abrir Activity2 y recibir la información que esta devuelve al finalizar. */
     private val activity2Launcher =
         registerForActivityResult(
             ActivityResultContracts.StartActivityForResult()

@@ -12,13 +12,9 @@
     tools:context=".Activity2">
 
     <!-- Título de la segunda actividad -->
-
     <!-- Descripción de la actividad -->
-
     <!-- Mensaje enviado desde MainActivity -->
-
     <!-- Botón para indicar que el mensaje fue recibido -->
-
     <!-- Botón para cancelar el mensaje -->
 
     <TextView
@@ -39,8 +35,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <!-- Cuadro que muestra el mensaje y se adapta a su contenido -->
-
-
     <TextView
         android:id="@+id/subtituloActivity2"
         android:layout_width="0dp"

@@ -1,4 +1,4 @@
-📱 App Móvil - Proyecto Android Kotlin - Comunicación entre Activities
+## 📱 App Móvil - Proyecto Android Kotlin - Comunicación entre Activities
 
     Nombre: ea2_androidkotlin
     
