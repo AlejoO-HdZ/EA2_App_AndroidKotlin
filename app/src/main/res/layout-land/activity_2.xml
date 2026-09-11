@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Interfaz de la segunda actividad para orientación horizontal -->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F0FF"
+    tools:context=".Activity2">
+
+    <!-- Título de la segunda actividad -->
+
+    <!-- Descripción de la actividad -->
+    <TextView
+        android:id="@+id/tituloActivity2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="24dp"
+        android:gravity="center"
+        android:text="ACTIVITY 2 (Modo Horizontal)"
+        android:textColor="#493B76"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/subtituloActivity2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="left"
+        android:text="Mensaje recibido desde Activity Main:"
+        android:textColor="#75689B"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tituloActivity2" />
+
+    <!-- Cuadro donde se muestra el mensaje -->
+
+    <!-- Botón para indicar que el mensaje fue recibido -->
+    <TextView
+        android:id="@+id/txtMensaje"
+        android:layout_width="669dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="30dp"
+        android:background="#E5DDF8"
+        android:gravity="center"
+        android:maxLines="4"
+        android:padding="15dp"
+        android:text="Aquí aparecerá el mensaje"
+        android:textColor="#30294A"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/subtituloActivity2" />
+
+    <Button
+        android:id="@+id/btnRecibido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#5B9B72"
+        android:text="✓  RECIBIDO"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@id/btnCancelado"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtMensaje" />
+
+    <!-- Botón para cancelar el mensaje -->
+    <Button
+        android:id="@+id/btnCancelado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#C45B67"
+        android:text="✕  CANCELADO"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnRecibido"
+        app:layout_constraintTop_toBottomOf="@id/txtMensaje" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

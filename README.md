@@ -30,22 +30,25 @@ Características principales:
 - Diseño adaptado para orientación vertical y horizontal.
 - Botón para salir de la aplicación.
 
-REQUISITOS PARA EJECUTAR PROYECTO:
+### REQUISITOS PARA EJECUTAR PROYECTO:
 
-Android Studio instalado O IntelliJ IDEA con sooporte para android.
-JDK 21
-Android SDK configurado.
-Gradle 9.5.0
-Un dispositivo Android físico o un emulador.
-Una versión de Android compatible con el proyecto.
+- Android Studio instalado O IntelliJ IDEA con sooporte para android.
+- JDK 21
+- Android SDK configurado.
+- Gradle 9.5.0
+- Un dispositivo Android físico o un emulador.
+- Una versión de Android compatible con el proyecto.
 
-ENTORNO DE PRUEBA:
-La aplicacion fue probada utilizando:
+### ENTORNO DE PRUEBA:
+La aplicacion fue probada utilizando el siguiente entorno:
+- Kotlin: 2.3.20
+- Groovy: 4.0.29
 - Dispositivo virtual: Medium Phone
 - Android: 17/ API 37.1
 - Imagen: Google APIs
-- Arquitectura: x86_64
 - Tamaño de pagina: 16 kb
+- Launcher JVM:  21.0.8 (Eclipse Adoptium 21.0.8+9-LTS)
+- OS: Windows 11 10.0, Arquitectura: x86_64-
 
 🚀 Instalación y ejecución
 Descargar o clonar este repositorio.
